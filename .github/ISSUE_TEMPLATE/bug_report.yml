@@ -1,0 +1,34 @@
+﻿name: Bug report
+description: Reporta un bug reproducible
+labels: [bug]
+assignees: []
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Descripción
+      description: ¿Qué sucede y qué esperabas que suceda?
+      placeholder: Describe el problema
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos para reproducir
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Versión / commit
+      description: Etiqueta, hash de commit o rama
+      placeholder: e.g. main@abcdef
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs relevantes
+      render: shell

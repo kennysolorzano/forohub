@@ -1,0 +1,24 @@
+﻿name: Feature request
+description: Propón una mejora o nueva funcionalidad
+labels: [enhancement]
+assignees: []
+body:
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivación
+      description: ¿Qué problema resuelve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Propuesta
+      placeholder: Describe la solución ideal y alternativas consideradas
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Alcance
+      description: Fuera de alcance / riesgos / impacto

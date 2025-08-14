@@ -1,0 +1,22 @@
+# Normaliza todos los archivos de texto a LF en el repo
+* text=auto eol=lf
+
+# Mantén binarios tal cual
+*.jar binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+
+# Mantén scripts como texto LF (útil si los editas en Linux/macOS)
+*.sh text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+*.java text eol=lf
+*.xml text eol=lf
+*.properties text eol=lf
+*.sql text eol=lf
+*.ps1 text eol=crlf
+*.bat text eol=crlf
