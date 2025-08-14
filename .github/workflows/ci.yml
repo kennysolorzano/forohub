@@ -1,7 +1,4 @@
-New-Item -ItemType Directory -Force .github\workflows | Out-Null
-
-@'
-name: CI
+﻿name: CI
 
 on:
   push:
@@ -69,4 +66,3 @@ jobs:
 
       - name: Build & Test
         run: mvn -B -q clean test
-'@ | Set-Content -Path .github\workflows\ci.yml -Encoding UTF8
