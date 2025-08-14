@@ -1,5 +1,8 @@
 # 🗨️ ForoHub
-
+![Build](https://img.shields.io/github/actions/workflow/status/kennysolorzano/forohub/ci.yml?branch=main)
+![License](https://img.shields.io/github/license/kennysolorzano/forohub)
+![Java](https://img.shields.io/badge/Java-21-blue)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3.x-brightgreen)
 [![Java](https://img.shields.io/badge/Java-17-orange?logo=openjdk)](https://openjdk.org/projects/jdk/17/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen?logo=springboot)](https://spring.io/projects/spring-boot)
 [![MySQL](https://img.shields.io/badge/MySQL-8-blue?logo=mysql)](https://www.mysql.com/)
